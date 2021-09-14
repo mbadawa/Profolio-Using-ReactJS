@@ -28,7 +28,7 @@ export default function Contact() {
 	return (
 		<div
 			id="contact"
-			className="dark:text-gray-400 container p-10 ml-auto mr-auto md:pl-0 md:pr-0"
+			className="dark:text-gray-400 container p-10 ml-auto mr-auto md:pl-0 md:pr-0 "
 		>
 			<form onSubmit={sendEmail}>
 				<span className="flex flex-col gap-2">
@@ -77,7 +77,10 @@ export default function Contact() {
 				>
 					Send
 				</button>
-				<p className="mt-2 text-green-500">{messageSent}</p>
+
+				<p className="flex items-center gap-3 mt-2 p-3 text-green-600 md:w-2/3 opacity-75">
+					{messageSent}
+				</p>
 			</form>
 		</div>
 	);

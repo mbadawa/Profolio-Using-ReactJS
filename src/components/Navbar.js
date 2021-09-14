@@ -4,6 +4,7 @@ import {
 	AiFillDribbbleCircle,
 	AiFillGithub,
 } from "react-icons/ai";
+
 export default function Navbar() {
 	return (
 		<div className="p-5 top-0 sticky scroll z-50 bg-gray-100 shadow dark:bg-gray-700">

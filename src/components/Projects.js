@@ -3,6 +3,8 @@ import mrjs from "../images/mrjs.png";
 import giphyclone from "../images/giphyclone.png";
 import covidtracker from "../images/covidtracker.png";
 import weatherapp from "../images/weatherapp.png";
+import { IoIosCall } from "react-icons/io";
+
 export default function Projects() {
 	return (
 		<div id="project" className="pr-5 pt-5 pb-5 text-gray-600">
@@ -112,6 +114,16 @@ export default function Projects() {
 						</span>
 					</div>
 				</div>
+				<span class="dark:bg-gray-700 dark:text-gray-400 bg-gray-100 rounded md:w-1/2 ml-auto mr-auto opacity-75 p-5 flex justify-center items-center gap-2 mt-5 flex-col">
+					<p>Did you like what you saw?</p>
+					<a
+						href="tel:540-607-1901"
+						className="dark:bg-green-700 bg-green-500 p-3 text-white rounded flex items-center gap-2"
+					>
+						<IoIosCall />
+						540-607-1901
+					</a>
+				</span>
 			</div>
 		</div>
 	);
